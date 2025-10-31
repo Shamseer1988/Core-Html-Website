@@ -1,0 +1,38 @@
+{
+  "zone_settings": {
+    "ssl": "full",
+    "always_use_https": true,
+    "min_tls_version": "1.2",
+    "brotli": true,
+    "early_hints": true,
+    "http2": true,
+    "http3": true,
+    "zero_rtt": true,
+    "rocket_loader": true,
+    "email_obfuscation": true,
+    "server_side_exclude": true,
+    "hotlink_protection": true
+  },
+  "page_rules": [
+    {
+      "targets": ["*corengineering.com.qa/*"],
+      "actions": {
+        "cache_level": "cache_everything",
+        "edge_cache_ttl": 2419200,
+        "browser_cache_ttl": 2419200,
+        "cache_by_device_type": true,
+        "cache_deception_armor": true
+      }
+    },
+    {
+      "targets": ["*corengineering.com.qa/*.jpg", "*corengineering.com.qa/*.jpeg", "*corengineering.com.qa/*.png", "*corengineering.com.qa/*.gif", "*corengineering.com.qa/*.webp"],
+      "actions": {
+        "cache_level": "cache_everything",
+        "edge_cache_ttl": 2419200,
+        "browser_cache_ttl": 2419200,
+        "polish": "lossy",
+        "webp": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+    <!doctype html>
+    <html class="no-js" lang="en">
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Core Engineering</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+
+        <!-- All css files are included here. -->
+        <!-- Bootstrap fremwork main css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Owl Carousel  main css -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!-- This core.css file contents all plugings css file. -->
+        <link rel="stylesheet" href="css/core.css">
+        <!-- Theme shortcodes/elements style -->
+        <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+        <!-- Theme main style -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- User style -->
+        <link rel="stylesheet" href="css/custom.css">
+
+
+        <!-- Modernizr JS -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <style>
+        :root {
+        --primary-color: #0c3c78;
+        --accent-color: #f5f7fa;
+        --text-color: #333;
+        }
+
+        body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: var(--accent-color);
+        color: var(--text-color);
+        line-height: 1.8;
+        }
+
+        header {
+        background: url('images/Core Header.jpg') center/cover no-repeat;
+        color: white;
+        text-align: center;
+        padding: 80px 20px 60px;
+        position: relative;
+        }
+
+        header img {
+        width: 180px;
+        background: rgba(255, 255, 255, 0.85);
+        padding: 10px 15px;
+        border-radius: 12px;
+        }
+
+        main {
+        max-width: 950px;
+        background: white;
+        margin: -40px auto 60px;
+        padding: 40px 50px;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 10px;
+        }
+
+        h2 {
+        color: var(--primary-color);
+        margin-top: 30px;
+        }
+
+        p, li {
+        font-size: 16px;
+        }
+
+        ul {
+        padding-left: 20px;
+        }
+
+        footer {
+        background: url('images/Core Footer.jpg') center/cover no-repeat;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+        font-size: 15px;
+        line-height: 1.6;
+        }
+
+        footer a {
+        color: #ffefba;
+        text-decoration: none;
+        }
+
+        @media (max-width: 700px) {
+        main {
+            padding: 25px;
+        }
+        header {
+            padding: 60px 20px;
+        }
+        header img {
+            width: 150px;
+        }
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->  
+
+        <!-- Body main wrapper start -->
+        <div class="wrapper" id="home" >
+            <!-- Start Header Style -->
+            <div id="header" class="htc-header">
+                <!-- Start Header Top -->
+                <div class="htc__header__top bg__cat--1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                                <ul class="heaher__top__left">
+                                    <li><i class="fa fa-globe"></i>Email : Info@corengineering.com.qa</li>
+                                    <li><a href="#"><i class="fa fa-phone"></i>(974)  30116612</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                                <div class="header__top__right">
+                                    <ul class="social__icons">
+                                    <li><a href="https://facebook.com" target="_blank" class="facebook" rel="noopener" title="Facebook" aria-label="Facebook"><i class="zmdi zmdi-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
+                                    <li><a href="https://instagram.com" target="_blank" class="instagram" rel="noopener" title="Instagram" aria-label="Instagram"><i class="zmdi zmdi-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
+                                    <li><a href="https://twitter.com" target="_blank" class="twitter" rel="noopener" title="Twitter" aria-label="Twitter"><i class="zmdi zmdi-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
+                                    <li><a href="https://linkedin.com" target="_blank" class="linkedin" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="zmdi zmdi-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a></li>
+                                    <li><a href="https://youtube.com" target="_blank" class="youtube" rel="noopener" title="YouTube" aria-label="YouTube"><i class="zmdi zmdi-youtube" aria-hidden="true"></i><span class="sr-only">YouTube</span></a></li>
+                                    </ul>
+
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Header Top -->
+                <!-- Start Mainmenu Area -->
+                <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-7">
+                                <div class="logo">
+                                    <a href="index">
+                                        <img src="images/logo/core_logo.png" alt="logo image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-6 col-xs-5">
+                                <nav class="main__menu__nav  hidden-xs hidden-sm">
+                                    <ul class="main__menu">
+                                        <li class="drop"><a href="index">HOME</a>                                      
+                                        </li>
+                                        <li><a href="index">ABOUT</a></li>
+                                        <li><a href="index">SERVICES</a></li>
+                                        <!-- <li class="drop"><a href="#">pages</a>
+                                            <ul class="dropdown">
+                                                <li><a href="service.html">service</a></li>
+                                                <li><a href="#">Single service</a></li>
+                                                <li><a href="projects-one.html">projects one</a></li>
+                                                <li><a href="projects-two.html">projects two</a></li>
+                                                <li><a href="projects-three.html">projects three</a></li>
+                                                <li><a href="single-project.html">Single Project</a></li>
+                                                <li><a href="blog.html">BLog</a></li>
+                                                <li><a href="blog-one-column.html">blog one column</a></li>
+                                                <li><a href="blog-two-column.html">blog two column</a></li>
+                                                <li><a href="blog-details.html">blog Details</a></li>
+                                                <li><a href="login-register.html">Log in & Register</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li class="drop"><a href="index">PROJECTS</a>
+                                        </li>
+                                        <li class="drop"><a href="index">BLOG</a>
+                                            <!-- <ul class="dropdown">
+                                                <li><a href="blog.html">BLog</a></li>
+                                                <li><a href="blog-one-column.html">blog one column</a></li>
+                                                <li><a href="blog-two-column.html">blog two column</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li><a href="index">CONTACT</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="mobile-menu clearfix visible-xs visible-sm">
+                                    <nav id="mobile_dropdown">
+                                        <ul>
+                                            <li><a href="index">Home</a>
+                                                <!-- <ul>
+                                                    <li><a href="index">Home 01</a></li>
+                                                    <li><a href="index-2.html">Home 02</a></li>
+                                                    <li><a href="index-3.html">Home 03</a></li>
+                                                </ul> -->
+                                            </li>
+                                            <li><a href="index">ABOUT</a></li>
+                                            <li><a href="index">PROJECTS</a>
+                                                <!-- <ul>
+                                                    <li><a href="projects-one.html">projects one</a></li>
+                                                    <li><a href="projects-two.html">projects two</a></li>
+                                                    <li><a href="projects-three.html">projects three</a></li>
+                                                </ul> -->
+                                            </li>
+                                            <!-- <li><a href="#">pages</a>
+                                                <ul>
+                                                    <li><a href="service.html">service</a></li>
+                                                    <li><a href="#">Single service</a></li>
+                                                    <li><a href="projects-one.html">projects one</a></li>
+                                                    <li><a href="projects-two.html">projects two</a></li>
+                                                    <li><a href="projects-three.html">projects three</a></li>
+                                                    <li><a href="single-project.html">Single Project</a></li>
+                                                    <li><a href="blog.html">BLog</a></li>
+                                                    <li><a href="blog-one-column.html">blog one column</a></li>
+                                                    <li><a href="blog-two-column.html">blog two column</a></li>
+                                                    <li><a href="blog-details.html">blog Details</a></li>
+                                                    <li><a href="login-register.html">Log in & Register</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <li><a href="index">Services</a>
+                                                <!-- <ul>
+                                                    <li><a href="blog.html">BLog</a></li>
+                                                    <li><a href="blog-one-column.html">blog one column</a></li>
+                                                    <li><a href="blog-two-column.html">blog two column</a></li>
+                                                </ul> -->
+                                            </li>
+                                            <li><a href="index">contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div> 
+                            </div>
+                            <!-- <div class="col-md-2 col-sm-6 hidden-xs">
+                                <div class="htc__header__search">
+                                    <input type="text" placeholder="SEARCH">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="mobile-menu-area"></div>
+                    </div>
+                </div>
+                <!-- End Mainmenu Area -->
+            </div>
+            <!-- End Header Style -->
+
+    <!-- Hero (no inline styles; uses theme + style.css additions) -->
+
+
+    <!-- Terms Content -->
+    
+    <main class="legal-main">
+        <h1>🛡️ Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> October 20, 2025</p>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to <strong>Core Engineering & Construction W.L.L.</strong> (“Company”, “we”, “our”, “us”). We respect your privacy and are committed to protecting the personal information you share with us through our website <a href="https://www.coreengineering.com.qa" target="_blank" rel="noopener noreferrer">
+coreengineering.com.qa
+</a>.</p>
+        <p>This Privacy Policy explains how we collect, use, and safeguard your personal data when you interact with our website or contact us.</p>
+
+        <h2>2. Information We Collect</h2>
+        <ul>
+        <li><strong>Personal Information:</strong> such as your name, email address, and phone number when you fill out our contact or inquiry forms.</li>
+        <li><strong>Non-Personal Information:</strong> including browser type, operating system, and pages visited, collected automatically through cookies or analytics tools.</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the collected information for:</p>
+        <ul>
+        <li>Responding to your inquiries or requests.</li>
+        <li>Providing information about our services and projects.</li>
+        <li>Improving our website’s functionality and user experience.</li>
+        <li>Complying with applicable legal requirements.</li>
+        </ul>
+        <p>We do not sell, rent, or trade your personal information to third parties.</p>
+
+        <h2>4. Data Retention</h2>
+        <p>We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law.</p>
+
+        <h2>5. Cookies and Analytics</h2>
+        <p>Our website may use cookies and similar technologies to enhance user experience and analyze site performance. You can choose to disable cookies through your browser settings, but this may affect certain functionalities.</p>
+
+        <h2>6. Third-Party Links</h2>
+        <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of such sites. We encourage you to review their privacy policies before providing any personal data.</p>
+
+        <h2>7. Data Security</h2>
+        <p>We implement reasonable administrative, technical, and physical safeguards to protect your personal data against unauthorized access, loss, misuse, or alteration.</p>
+
+        <h2>8. Your Rights</h2>
+        <p>Depending on your location, you may have the right to:</p>
+        <ul>
+        <li>Access or request a copy of your personal data.</li>
+        <li>Request correction or deletion of your information.</li>
+        <li>Withdraw consent to data processing.</li>
+        </ul>
+        <p>To exercise any of these rights, please contact us at <a href="mailto:info@coreengineering.com.qa">info@coreengineering.com.qa</a>.</p>
+
+        <h2>9. Updates to This Policy</h2>
+        <p>We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated “Effective Date.”</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact:</p>
+        <p><strong>📧 Email:</strong> <a href="mailto:info@coreengineering.com.qa">info@coreengineering.com.qa</a><br/>
+        <strong>🏢 Address:</strong> Core Engineering & Construction W.L.L., Barwa Commercial Avenue, Building No. 8, 2nd Floor, Doha, Qatar</p>
+    </main>
+    
+            <!-- Start Footer Area -->
+            <footer class="htc__footer__area">
+                <div class="footer__top ptb--130 footer-top-bg" data--1f2d30__overlay="9.5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="htc__footer__wrap clearfix">
+                                <!-- Start Single Footer -->
+                                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                                    <div class="footer">
+                                        <div class="footer__widget">
+                                            <h2 class="ft__title">ABOUT</h2>
+                                        </div>
+                                        <div class="ft__details">
+                                            <p>Core Engineering & Construction W.L.L. is a leading Qatar-based company specializing in General Construction, MEP Works, Facility Maintenance, Steel Fabrication, and Interior Fit-Outs — delivering quality, safety, and reliability since 2009. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Footer -->
+                                <!-- Start Single Footer -->
+                                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 xmt-40">
+                                    <div class="footer quick__link">
+                                        <div class="footer__widget">
+                                            <h2 class="ft__title">QUICK LINKS</h2>
+                                        </div>
+                                        <div class="footer__link">
+                                            <ul class="ft__menu">
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Projects</a></li>
+                                                <li><a href="#">Features</a></li>
+                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                            </ul>
+                                            <ul class="ft__menu">
+                                                <li><a href="#">Quote</a></li>
+                                                <li><a href="#">Projects</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                                <li><a href="terms-and-conditions.html">Terms & Condition</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Footer -->
+                                <!-- Start Single Footer -->
+                                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 smt-40 xmt-40">
+                                    <div class="footer">
+                                        <div class="footer__widget">
+                                            <h2 class="ft__title">INSTAGRAM</h2>
+                                        </div>
+                                        <ul class="footer__instagram">
+                                            <li><a href="#"><img src="images/blog/sm-img/1.jpg" alt="images"></a></li>
+                                            <li><a href="#"><img src="images/blog/sm-img/2.jpg" alt="images"></a></li>
+                                            <li><a href="#"><img src="images/blog/sm-img/3.jpg" alt="images"></a></li>
+                                            <li><a href="#"><img src="images/blog/sm-img/4.jpg" alt="images"></a></li>
+                                            <li><a href="#"><img src="images/blog/sm-img/5.jpg" alt="images"></a></li>
+                                            <li><a href="#"><img src="images/blog/sm-img/6.jpg" alt="images"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End Single Footer -->
+                                <!-- Start Single Footer -->
+                                <div class="col-md-3 col-lg-2 col-lg-offset-1 col-sm-6 col-xs-12 smt-40 xmt-40">
+                                    <div class="footer">
+                                        <div class="footer__widget">
+                                            <h2 class="ft__title">INQUARY</h2>
+                                            <div class="footer__link">
+                                                <ul class="ft__menu">
+                                                    <li><a href="#">Construction</a></li>
+                                                    <li><a href="#">Architecture</a></li>
+                                                    <li><a href="#">Plambing</a></li>
+                                                    <li><a href="#">Plambing</a></li>
+                                                </ul>
+                                                <ul class="ft__menu">
+                                                    <li><a href="#">Painting</a></li>
+                                                    <li><a href="#">Roofing</a></li>
+                                                    <li><a href="#">Plambing</a></li>
+                                                    <li><a href="#">Features</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright bg__theme_copywrite  ">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-xs-12 ">
+                                <div class="copyright__inner ">
+                                    <p>Copyright <a href="#" target="_blank">Core Eng</a>
+                                    All Rights Reserved 2009</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer Area -->
+        </div>
+        <!-- Body main wrapper end -->
+
+        <!-- Placed js at the end of the document so the pages load faster -->
+
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap framework js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- All js plugins included in this file. -->
+        <script src="js/plugins.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+
+
+    
+
+
+        <!-- Waypoints.min.js. -->
+        <script src="js/waypoints.min.js"></script>
+        <!-- Main js file that contents all jQuery plugins activation. -->
+        <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
+    </body>
+
+
+
+    </html>

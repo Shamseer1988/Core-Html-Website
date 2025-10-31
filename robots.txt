@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Sitemaps
+Sitemap: https://corengineering.com.qa/sitemap.xml
+
+# Crawling optimization
+Crawl-delay: 5
+
+# Additional directives for specific bots
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Crawl-delay: 10

@@ -1,0 +1,15 @@
+
+/* ----------------------------------------------------
+	You can put your custom css code here: 
+-------------------------------------------------------*/
+
+/* ---- moved inline styles (accessibility & layout fixes) ---- */
+.visually-hidden {
+  position: absolute;
+  left: -5000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
